@@ -10,17 +10,17 @@ Article 12/19 Infrastructure Readiness Scorecard
 
 ### 📋 Templates  
 ADAS Logging Schema Template
-→ [link to repo]
+→ [[link to repo]](https://www.notion.so/ADAS-AI-System-Article-12-Logging-Schema-Template-30af60b47c9980ca8e41ea8871109299?source=copy_link)
 Article 12-compliant logging schema for ADAS systems
 
 ### ✅ Checklists
 Article 12 & 19 Compliance Checklist
-→ [link to repo]
+→ [[link to repo]](https://www.notion.so/High-Risk-AI-System-Technical-Compliance-Checklist-30af60b47c998023a95cf4f783c83fe8?source=copy_link)
 Complete checklist for automotive infrastructure teams
 
 ### 📖 Reference
 EU AI Act Automotive Field Guide
-→ [link to repo]
+→ [[link to repo]](https://www.notion.so/The-Automotive-Field-Guide-EU-AI-Act-2026-30af60b47c9980768e89dfb8f7f74a75?source=copy_link)
 Practical Article-by-Article reference for engineering teams
 
 ## About
@@ -34,5 +34,5 @@ Audit Defense Briefs, and Infrastructure Implementation Specs.
 August 2026 deadline · Article 12 & 19 specialists · 
 Automotive OTA and ADAS focus
 
-→ Connect on LinkedIn: [your LinkedIn URL]
-→ Take the readiness diagnostic: [scorecard URL]
+→ Connect on LinkedIn: www.linkedin.com/in/keithan-cokbilir-b929a830
+→ Take the readiness diagnostic: [[scorecard URL]](https://keithan-c.github.io/scorecard/)
