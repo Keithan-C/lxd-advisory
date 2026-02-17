@@ -5,7 +5,7 @@ EU AI Act Article 4, 12 & 19 for Automotive R&D Teams
 
 ### 🔍 Diagnostic
 Article 12/19 Infrastructure Readiness Scorecard
-→ [link to your scorecard]
+→ [[link to your scorecard]](https://keithan-c.github.io/scorecard/)
 3-minute self-assessment for OTA and ADAS teams
 
 ### 📋 Templates  
