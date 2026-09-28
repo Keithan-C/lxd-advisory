@@ -1,0 +1,55 @@
+---
+layout: default
+title: Home
+---
+<header class="hero home-hero">
+  <div class="container">
+    <h1>Learning that produces results.<br>Digital tools that save time.</h1>
+    <p class="lead">LXD Advisory designs learning experiences, builds AI literacy and EU AI Act readiness, and delivers practical digital solutions — websites, forms, booking, mini apps and automation.</p>
+    <div class="actions">
+      <a class="btn" href="{{ '/contact/' | relative_url }}">Book a call</a>
+      <a class="btn secondary" href="{{ site.scorecard }}">Take the AI Act readiness check</a>
+    </div>
+  </div>
+</header>
+
+<section class="container pillars">
+  <h2 class="section-title">What I do</h2>
+  <div class="cards">
+    {% for item in site.data.navigation %}{% if item.children %}
+    <a class="card" href="{{ item.url | relative_url }}">
+      <h3>{{ item.title }}</h3>
+      <p>{% for child in item.children %}{{ child.title }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+      <span class="card-link">Explore →</span>
+    </a>
+    {% endif %}{% endfor %}
+  </div>
+</section>
+
+<section class="container">
+  <h2 class="section-title">Free EU AI Act resources</h2>
+  <div class="cards">
+    <a class="card" href="{{ site.scorecard }}">
+      <h3>Readiness Scorecard</h3>
+      <p>3-minute Article 12/19 infrastructure self-assessment for OTA and ADAS teams.</p>
+      <span class="card-link">Start →</span>
+    </a>
+    <a class="card" href="https://www.notion.so/ADAS-AI-System-Article-12-Logging-Schema-Template-30af60b47c9980ca8e41ea8871109299?source=copy_link">
+      <h3>ADAS Logging Schema Template</h3>
+      <p>Article 12-compliant logging schema for ADAS systems.</p>
+      <span class="card-link">Open →</span>
+    </a>
+    <a class="card" href="https://www.notion.so/High-Risk-AI-System-Technical-Compliance-Checklist-30af60b47c998023a95cf4f783c83fe8?source=copy_link">
+      <h3>Compliance Checklist</h3>
+      <p>Article 12 &amp; 19 checklist for automotive infrastructure teams.</p>
+      <span class="card-link">Open →</span>
+    </a>
+    <a class="card" href="https://www.notion.so/The-Automotive-Field-Guide-EU-AI-Act-2026-30af60b47c9980768e89dfb8f7f74a75?source=copy_link">
+      <h3>Automotive Field Guide</h3>
+      <p>Practical article-by-article EU AI Act reference for engineering teams.</p>
+      <span class="card-link">Open →</span>
+    </a>
+  </div>
+</section>
+
+{% include cta.html %}

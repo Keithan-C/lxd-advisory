@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="hero">
+  <div class="container">
+    {% include breadcrumb.html %}
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  </div>
+</header>
+<section class="container">
+  <div class="prose">{{ content }}</div>
+</section>
+{% include cta.html %}

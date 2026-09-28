@@ -36,3 +36,11 @@ Automotive OTA and ADAS focus
 
 → Connect on LinkedIn: www.linkedin.com/in/keithan-cokbilir-b929a830
 → Take the readiness diagnostic: [[scorecard URL]](https://keithan-c.github.io/scorecard/)
+
+## Website
+This repo is also a Jekyll site for GitHub Pages (Settings → Pages → deploy from branch).
+
+- **Site map / menu:** `_data/navigation.yml` — add, rename or reorder pages here
+- **Pages:** `learning-ai/`, `digital-solutions/`, `projects/`, `about.md`, `contact.md`
+- **Layout & styles:** `_layouts/`, `_includes/`, `assets/css/style.css`
+- **Preview locally:** `jekyll serve` → http://localhost:4000/lxd-advisory/

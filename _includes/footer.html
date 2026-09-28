@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand" href="{{ '/' | relative_url }}">LXD <span>Advisory</span></a>
+      <p>{{ site.description }}</p>
+    </div>
+    {% for item in site.data.navigation %}{% if item.children %}
+    <div>
+      <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+      <ul>
+        {% for child in item.children %}<li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}{% endfor %}
+    <div>
+      <h3>Company</h3>
+      <ul>
+        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a href="{{ site.linkedin }}">LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="container copyright">© {{ site.time | date: "%Y" }} LXD Advisory</p>
+</footer>
