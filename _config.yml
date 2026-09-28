@@ -1,0 +1,9 @@
+title: LXD Advisory
+description: Learning experience design, AI literacy and EU AI Act readiness — plus practical digital solutions for small teams.
+url: "https://keithan-c.github.io"
+baseurl: "/lxd-advisory"
+linkedin: "https://www.linkedin.com/in/keithan-cokbilir-b929a830"
+scorecard: "https://keithan-c.github.io/scorecard/"
+permalink: pretty
+exclude:
+  - README.md

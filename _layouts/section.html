@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<header class="hero">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  </div>
+</header>
+<section class="container">
+  {% if content != "" %}<div class="prose">{{ content }}</div>{% endif %}
+  {% assign section = site.data.navigation | where: "url", page.url | first %}
+  <div class="cards">
+    {% for child in section.children %}
+    <a class="card" href="{{ child.url | relative_url }}">
+      <h2>{{ child.title }}</h2>
+      <p>{{ child.summary }}</p>
+      <span class="card-link">Learn more →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% include cta.html %}

@@ -1,0 +1,3 @@
+{% for item in site.data.navigation %}{% for child in item.children %}{% if child.url == page.url %}
+<nav class="breadcrumb" aria-label="Breadcrumb"><a href="{{ item.url | relative_url }}">{{ item.title }}</a> / <span>{{ child.title }}</span></nav>
+{% endif %}{% endfor %}{% endfor %}

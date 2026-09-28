@@ -1,0 +1,50 @@
+# Site map. Top-level items appear in the header; `children` become dropdowns
+# and are listed as cards on their section's landing page.
+- title: Home
+  url: /
+- title: Learning & AI
+  url: /learning-ai/
+  children:
+    - title: Learning Experience Design
+      url: /learning-ai/learning-experience-design/
+      summary: Courses and programmes built around what learners must actually do.
+    - title: Corporate Training
+      url: /learning-ai/corporate-training/
+      summary: Output-driven workshops where teams leave with finished work, not just notes.
+    - title: AI Literacy
+      url: /learning-ai/ai-literacy/
+      summary: Practical AI skills for staff, aligned with Article 4 of the EU AI Act.
+    - title: EU AI Act
+      url: /learning-ai/eu-ai-act/
+      summary: Readiness support for Articles 4, 12 and 19 — logging, records and audit defence.
+- title: Digital Solutions
+  url: /digital-solutions/
+  children:
+    - title: Websites
+      url: /digital-solutions/websites/
+      summary: Fast, clear websites that are easy to maintain.
+    - title: Forms
+      url: /digital-solutions/forms/
+      summary: Smart forms that collect the right data the first time.
+    - title: Booking
+      url: /digital-solutions/booking/
+      summary: Appointment and session booking that fits your workflow.
+    - title: Mini Apps
+      url: /digital-solutions/mini-apps/
+      summary: Small, focused tools — calculators, scorecards, internal utilities.
+    - title: Automation
+      url: /digital-solutions/automation/
+      summary: Connect your tools and remove repetitive manual steps.
+    - title: AI Solutions
+      url: /digital-solutions/ai-solutions/
+      summary: Assistants and AI features built responsibly into your processes.
+- title: Projects
+  url: /projects/
+  children:
+    - title: PostCheck
+      url: /projects/postcheck/
+      summary: A featured project from the LXD Advisory lab.
+- title: About
+  url: /about/
+- title: Contact
+  url: /contact/
